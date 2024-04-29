@@ -5,7 +5,6 @@ Personal vim config.
 Initialize submodules and install with GNU stow:
 
 ```
-git submodule init
-git submodule update
+git submodule update --init
 stow -R -t ~ --ignore .gitmodules .
 ```
